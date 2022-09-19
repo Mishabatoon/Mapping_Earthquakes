@@ -38,7 +38,7 @@ let torontoData = "https://raw.githubusercontent.com/Mishabatoon/Mapping_Earthqu
 d3.json(torontoData).then(function(data) {
     console.log(data);
   // Creating a GeoJSON layer with the retrieved data.
-L.geoJson(data,{
+  L.geoJson(data,{
     color: "#ffffa1",
     weight: 2,
     onEachFeature: function(feature, layer) {
