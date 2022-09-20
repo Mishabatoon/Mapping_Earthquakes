@@ -3,7 +3,7 @@
 ## Project Overview
 
 This project shows the earthquake data in relation to the tectonic plates' location on the Earth.
-Using `JavaScript`, `Leaftet.js`, `geoJSON data`, and `css`, we were able to generate a world map with the earthquake data. We also added tectonic plate data using `d3.json()`.
+Using `JavaScript`, `Leaflet.js`, `geoJSON data`, and `css`, we were able to generate a world map with the earthquake data. We also added tectonic plate data using `d3.json()`.
 
 Using `Mapbox`, we added 4 different map styles that we can choose from:
 * Streets Mode
